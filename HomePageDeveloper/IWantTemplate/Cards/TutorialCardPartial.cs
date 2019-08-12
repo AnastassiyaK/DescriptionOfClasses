@@ -11,6 +11,7 @@ namespace ObjectDescription.HomePageDeveloper.IWantTemplate
 {
     public class TutorialCardPartial: BaseCard
     {
+        //Can be inherited from the tile element
         private IWebElement Level;
         private IWebElement Time;
         private IWebElement BookMark;

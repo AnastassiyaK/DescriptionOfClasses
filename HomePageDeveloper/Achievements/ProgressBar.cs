@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ObjectDescription.HomePageDeveloper.Achievments
 {
-    class ProgressBar
+    public class ProgressBar
     {
         public int GetIndicatorNumber()
         {

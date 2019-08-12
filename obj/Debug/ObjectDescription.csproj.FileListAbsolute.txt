@@ -1,0 +1,9 @@
+C:\Users\Nastassia_Karatkova\Documents\ObjectDescription\bin\Debug\ObjectDescription.dll
+C:\Users\Nastassia_Karatkova\Documents\ObjectDescription\bin\Debug\ObjectDescription.pdb
+C:\Users\Nastassia_Karatkova\Documents\ObjectDescription\bin\Debug\WebDriver.dll
+C:\Users\Nastassia_Karatkova\Documents\ObjectDescription\bin\Debug\WebDriver.xml
+C:\Users\Nastassia_Karatkova\Documents\ObjectDescription\obj\Debug\ObjectDescription.csprojAssemblyReference.cache
+C:\Users\Nastassia_Karatkova\Documents\ObjectDescription\obj\Debug\ObjectDescription.csproj.CoreCompileInputs.cache
+C:\Users\Nastassia_Karatkova\Documents\ObjectDescription\obj\Debug\ObjectDescription.csproj.CopyComplete
+C:\Users\Nastassia_Karatkova\Documents\ObjectDescription\obj\Debug\ObjectDescription.dll
+C:\Users\Nastassia_Karatkova\Documents\ObjectDescription\obj\Debug\ObjectDescription.pdb
