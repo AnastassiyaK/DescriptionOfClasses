@@ -46,12 +46,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="HomePageDeveloper\IWantTemplate\blueprintPartial.cs" />
-    <Compile Include="HomePageDeveloper\IWantTemplate\devshowcasePartial.cs" />
+    <Compile Include="HomePageDeveloper\Achievments\ProgressBar.cs" />
+    <Compile Include="HomePageDeveloper\BookMarkHistory\BookMark.cs" />
+    <Compile Include="HomePageDeveloper\BookMarkHistory\History.cs" />
+    <Compile Include="HomePageDeveloper\BookMarkHistory\BookMarkHistory.cs" />
+    <Compile Include="HomePageDeveloper\IWantTemplate\Cards\BlueprintPartial.cs" />
+    <Compile Include="HomePageDeveloper\IWantTemplate\Cards\BaseCard.cs" />
+    <Compile Include="HomePageDeveloper\IWantTemplate\Cards\DevshowcasePartial.cs" />
     <Compile Include="HomePageDeveloper\IWantTemplate\expendedview.cs" />
     <Compile Include="HomePageDeveloper\IWantTemplate\IWantTemplate.cs" />
-    <Compile Include="HomePageDeveloper\IWantTemplate\productCardPartial.cs" />
-    <Compile Include="HomePageDeveloper\IWantTemplate\TutorialCardPartial.cs" />
+    <Compile Include="HomePageDeveloper\IWantTemplate\Cards\ProductCardPartial.cs" />
+    <Compile Include="HomePageDeveloper\IWantTemplate\Cards\TutorialCardPartial.cs" />
+    <Compile Include="HomePageDeveloper\TutoriaComponent\TutorialListView\TutorialStat.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TutorialNavigator\Filter\ExperienceFilter.cs" />
     <Compile Include="TutorialNavigator\Filter\FilterSection.cs" />
@@ -59,10 +65,13 @@
     <Compile Include="TutorialNavigator\Filter\TopicFilter.cs" />
     <Compile Include="TutorialNavigator\Filter\TypeFilter.cs" />
     <Compile Include="TutorialNavigator\Search\SearchSection.cs" />
+    <Compile Include="TutorialNavigator\Tiles\TileElement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="HomePageDeveloper\TutoriaComponent\DeveloperProducts\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
