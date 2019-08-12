@@ -45,7 +45,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="HomePageDeveloper\Achievements\ProgressBar.cs" />
     <Compile Include="HomePageDeveloper\BookMarkHistory\BookMark.cs" />
     <Compile Include="HomePageDeveloper\BookMarkHistory\History.cs" />
@@ -53,7 +52,6 @@
     <Compile Include="HomePageDeveloper\IWantTemplate\Cards\BlueprintPartial.cs" />
     <Compile Include="HomePageDeveloper\IWantTemplate\Cards\BaseCard.cs" />
     <Compile Include="HomePageDeveloper\IWantTemplate\Cards\DevshowcasePartial.cs" />
-    <Compile Include="HomePageDeveloper\IWantTemplate\expendedview.cs" />
     <Compile Include="HomePageDeveloper\IWantTemplate\IWantTemplate.cs" />
     <Compile Include="HomePageDeveloper\IWantTemplate\Cards\ProductCardPartial.cs" />
     <Compile Include="HomePageDeveloper\IWantTemplate\Cards\TutorialCardPartial.cs" />
