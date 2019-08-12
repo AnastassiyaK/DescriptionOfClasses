@@ -16,5 +16,23 @@ namespace ObjectDescription.HomePageDeveloper.BookMarkHistory
         {
             //collect all info and save as file
         }
+
+        public History GetHistoryByContentType(string type)
+        {
+            //implement some filter and return the result
+            return this;
+        }
+
+        public string GetTimeOfAction<T>(T action) where T : class
+        {
+            return "";
+        }
+
+        public History GetHistoryByDate(DateTime date)
+        {
+            //implement some filter and return the result
+            return this;
+        }
+
     }
 }

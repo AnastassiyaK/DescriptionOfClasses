@@ -21,5 +21,11 @@ namespace ObjectDescription.HomePageDeveloper.BookMarkHistory
         {
             return this;
         }
+
+        public int GetAmountOfEntries()
+        {
+            return 0; //return number of rows in the table
+        }
+
     }
 }

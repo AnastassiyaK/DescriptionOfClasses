@@ -23,5 +23,10 @@ namespace ObjectDescription.HomePageDeveloper.BookMarkHistory
             //remove Book mark from List of Tutorials
             return this;
         }
+        public BookMark GetBookMarkByDate(DateTime date)
+        {
+            //implement some filter and return the result
+            return this;
+        }
     }
 }

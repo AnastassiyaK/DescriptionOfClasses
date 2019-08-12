@@ -46,7 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="HomePageDeveloper\Achievments\ProgressBar.cs" />
+    <Compile Include="HomePageDeveloper\Achievements\ProgressBar.cs" />
     <Compile Include="HomePageDeveloper\BookMarkHistory\BookMark.cs" />
     <Compile Include="HomePageDeveloper\BookMarkHistory\History.cs" />
     <Compile Include="HomePageDeveloper\BookMarkHistory\BookMarkHistory.cs" />

@@ -8,5 +8,15 @@ namespace ObjectDescription.HomePageDeveloper.Achievments
 {
     class ProgressBar
     {
+        public int GetIndicatorNumber()
+        {
+            return 0;
+            //get number 
+        }
+
+        //public string GetProgressBarColor()
+        //{
+        //    return "";
+        //}
     }
 }
