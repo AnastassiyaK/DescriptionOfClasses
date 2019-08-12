@@ -28,5 +28,11 @@ namespace ObjectDescription.HomePageDeveloper.IWantTemplate.Cards
             //find element by locator and Click();
             //can return any page Tutorials,Products,ShowCases, BluePrints
         }
+
+        public BaseCard GetCardByTitle(string title)
+        {
+            //find card by title and return
+            return new BaseCard();
+        }
     }
 }

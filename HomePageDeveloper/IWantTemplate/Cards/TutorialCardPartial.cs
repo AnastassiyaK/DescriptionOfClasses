@@ -30,5 +30,12 @@ namespace ObjectDescription.HomePageDeveloper.IWantTemplate
             return this;
         }
 
+        public TutorialCardPartial GetTutorialCardByTitle(string title)
+        {
+            var card = GetCardByTitle(title);
+            //get some attributes and return TutorialCard
+            return new TutorialCardPartial();
+        }
+
     }
 }
