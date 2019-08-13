@@ -65,6 +65,7 @@
     <Compile Include="TutorialNavigator\Filter\TypeFilter.cs" />
     <Compile Include="TutorialNavigator\Search\SearchSection.cs" />
     <Compile Include="TutorialNavigator\Tiles\TileElement.cs" />
+    <Compile Include="TutorialNavigator\TutorialNavigator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
