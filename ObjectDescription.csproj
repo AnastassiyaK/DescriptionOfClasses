@@ -48,7 +48,7 @@
     <Compile Include="HomePageDeveloper\Achievements\Achievement.cs" />
     <Compile Include="HomePageDeveloper\Achievements\AchievementDescription.cs" />
     <Compile Include="HomePageDeveloper\Achievements\AchievementTab.cs" />
-    <Compile Include="HomePageDeveloper\Achievements\ProgressCircle.cs" />
+    <Compile Include="HomePageDeveloper\Achievements\AchievementProgress.cs" />
     <Compile Include="HomePageDeveloper\BookMarkHistory\BookMark.cs" />
     <Compile Include="HomePageDeveloper\BookMarkHistory\BookmarkTabList.cs" />
     <Compile Include="HomePageDeveloper\BookMarkHistory\History.cs" />

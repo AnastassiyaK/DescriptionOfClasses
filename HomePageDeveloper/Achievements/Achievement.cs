@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace ObjectDescription.HomePageDeveloper.Achievements
 {
-    public class Achievement
+    public class Achievement:AchievementDescription,AchievementProgress
     {        
+
         public string GetAchievementDescription(int percent)
         {
             //implement some search

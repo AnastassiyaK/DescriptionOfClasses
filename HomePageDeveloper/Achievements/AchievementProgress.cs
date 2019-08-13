@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ObjectDescription.HomePageDeveloper.Achievements
 {
-    public class ProgressCircle
+    public class AchievementProgress
     {
         public int Progress
         {
