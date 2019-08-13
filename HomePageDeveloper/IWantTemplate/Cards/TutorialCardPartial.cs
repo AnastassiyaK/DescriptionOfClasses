@@ -1,26 +1,31 @@
-﻿using ObjectDescription.HomePageDeveloper.IWantTemplate.Cards;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace ObjectDescription.HomePageDeveloper.IWantTemplate
+namespace ObjectDescription.HomePageDeveloper.IWantTemplate.Cards
 {
-    public class TutorialCardPartial: BaseCard
+    public class TutorialCardPartial:BaseCard
     {
-        //Can be inherited from the tile element
-        private string Time => "";//return time
-        private bool HasBookmark => false;//return if tile has bookmark
-        private string Tag => "";//return tag
-        private enum Level
+        public string Link => ""; //return link for single element
+        public string Time => "";//return time
+        public bool HasBookmark => false;//implement returning if tile has bookmark
+        public List<string> Tag => new List<string>();//return tags
+        public string Discription => "";//return description
+        public enum Level
         {
             Beginner,
             Intermediate,
             Advanced
         }
-        private enum Label
+        public enum Label
         {
             Featured,
             New
         }
 
-        private TileIcon Icon; 
+        private TileIcon Icon;
 
 
         public TutorialCardPartial AddBookMark()

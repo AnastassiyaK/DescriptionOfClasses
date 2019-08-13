@@ -1,42 +1,32 @@
-﻿using ObjectDescription.HomePageDeveloper.Achievments;
-using ObjectDescription.HomePageDeveloper.IWantTemplate;
-using System;
+﻿using ObjectDescription.HomePageDeveloper.IWantTemplate;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ObjectDescription.HomePageDeveloper.TutoriaComponent.TutorialListView
 {
     public class TutorialStatusSection
     {
-        public TutorialStats Mission;
-
-        public TutorialStats Tutorial;
-
-        public TutorialStats Group;
-
-        public ProgressBar ProgressBar;
-
-        public List<TutorialCardPartial> _unfinishedTutorials;//get list of tutorials
-
-        public int AmountOfUnfinishedTutorials => _unfinishedTutorials.Count;
-
-        public int GetCompletedByTypeIndex(int index)
+        public TutorialStats Stats => new TutorialStats();
+        
+        public int GetCompletedByType(StatsType type)
         {
             //if Mission
-            return Mission.Completed;
+            return Stats.Completed;
             //if .....
             
         }
 
-        public int GetAllByTypeIndex(int index)
+        public int GetAllByType(StatsType type)
         {
             //if Mission
-            return Mission.All;
+            return Stats.Completed;
             //if .....
-        }     
+        }
 
-
+        public enum StatsType
+        {
+            Tutorial,
+            Mission,
+            Group
+        }
     }
 }
