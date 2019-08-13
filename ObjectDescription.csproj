@@ -47,7 +47,9 @@
   <ItemGroup>
     <Compile Include="HomePageDeveloper\Achievements\ProgressBar.cs" />
     <Compile Include="HomePageDeveloper\BookMarkHistory\BookMark.cs" />
+    <Compile Include="HomePageDeveloper\BookMarkHistory\BookmarkTabList.cs" />
     <Compile Include="HomePageDeveloper\BookMarkHistory\History.cs" />
+    <Compile Include="HomePageDeveloper\BookMarkHistory\HistoryTabList.cs" />
     <Compile Include="HomePageDeveloper\IWantTemplate\Cards\BlueprintPartial.cs" />
     <Compile Include="HomePageDeveloper\IWantTemplate\Cards\BaseCard.cs" />
     <Compile Include="HomePageDeveloper\IWantTemplate\Cards\DevshowcasePartial.cs" />

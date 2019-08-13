@@ -11,22 +11,51 @@ namespace ObjectDescription.HomePageDeveloper.BookMarkHistory
 {
     public class BookMark
     {
-        private IWebElement RemoveAction;
-        public List<TileElement> BookMarks
+        public string LinkBookMark;
+        public string Name
         {
-            get;
-            //return all Tiles that have a book mark
+            get
+            {
+                //implement returning
+                return "";
+            }
+        }
+        public string Date
+        {
+            get
+            {
+                //implement returning
+                return "";
+            }
         }
 
-        public BookMark RemoveBookMark()
+        public BookmarkType Type
         {
-            //remove Book mark from List of Tutorials
+            get
+            {
+                //implement returning of BookMarkType
+                return BookmarkType.Tutorial;
+            }
+        }
+        public bool BookMarkExists(string name)
+        {
+            //implement search
+            return true;
+        }
+        public void RemoveBookmark()
+        {
+            //implement removal
+        }
+        public BookMark GetBookmarkByName(string name)
+        {
+            //implement search by name
             return this;
         }
-        public BookMark GetBookMarkByDate(DateTime date)
+        public enum BookmarkType
         {
-            //implement some filter and return the result
-            return this;
+            Tutorial,
+            Mission,
+            Group
         }
     }
 }

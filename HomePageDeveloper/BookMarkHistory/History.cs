@@ -9,30 +9,55 @@ namespace ObjectDescription.HomePageDeveloper.BookMarkHistory
 {
     public class History
     {
-        private IWebElement ContentType;
-
-        private IWebElement Time;
-        public void DownloadHistory()
+        public string LinkHistory;
+        public string Name
         {
-            //collect all info and save as file
+            get
+            {
+                //implement returning
+                return "";
+            }
+        }
+        public ContentType Type
+        {
+            get
+            {
+                //implement returning
+                return ContentType.Step;
+            }
         }
 
-        public History GetHistoryByContentType(string type)
+        public string Date
         {
-            //implement some filter and return the result
+            get
+            {
+                //implement returning
+                return "";
+            }
+        }
+        public string Time
+        {
+            get
+            {
+                //implement returning
+                return "";
+            }
+        }
+
+        public History GetHistoryByName(string name)
+        {
+            //implement returning 
             return this;
         }
-
-        public string GetTimeOfAction<T>(T action) where T : class
+        public enum ContentType
         {
-            return "";
+            Step,
+            Tutorial,
+            Mission,
+            Group
+
         }
 
-        public History GetHistoryByDate(DateTime date)
-        {
-            //implement some filter and return the result
-            return this;
-        }
 
     }
 }
