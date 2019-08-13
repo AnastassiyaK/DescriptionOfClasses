@@ -8,7 +8,7 @@ namespace ObjectDescription.HomePageDeveloper.Achievements
 {
     class AchievementTab
     {
-        public Dictionary<AchievementDescription, AchievementProgress> Achievements => new Dictionary<AchievementDescription, AchievementProgress>(); // stores all achievements from the page
+        public Dictionary<string, int> Achievements => new Dictionary<string,int>(); // stores all achievements from the page
 
         public int AchievementsCount() => Achievements.Count;
         public int Total
@@ -40,6 +40,7 @@ namespace ObjectDescription.HomePageDeveloper.Achievements
             return new List<Achievement>();
         }
 
-
+        
+      
     }
 }

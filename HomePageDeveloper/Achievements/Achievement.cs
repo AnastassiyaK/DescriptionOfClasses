@@ -6,22 +6,30 @@ using System.Threading.Tasks;
 
 namespace ObjectDescription.HomePageDeveloper.Achievements
 {
-    public class Achievement:AchievementDescription,AchievementProgress
+    public class Achievement
     {        
-
-        public string GetAchievementDescription(int percent)
+        public string Description
         {
-            //implement some search
-            return "";
-        }
-        public int GetAchievementProgress(int percent)
-        {
-            //implement some search
-            return 0;
+            get
+            {
+                //return description
+                return "";
+            }
         }
 
+        public int Progress
+        {
+            get
+            {
+                //return progress
+                return 0;
+            }
+        }
 
-
-
+        public Achievement GetAchievementByTitle(string title)
+        {
+            //search by title and return achievement
+            return this;
+        }
     }
 }
