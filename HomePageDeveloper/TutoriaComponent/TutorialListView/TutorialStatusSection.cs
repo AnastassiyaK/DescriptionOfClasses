@@ -18,7 +18,9 @@ namespace ObjectDescription.HomePageDeveloper.TutoriaComponent.TutorialListView
 
         public ProgressBar ProgressBar;
 
-        public TutorialCardPartial TutorialCard;
+        public List<TutorialCardPartial> _unfinishedTutorials;//get list of tutorials
+
+        public int AmountOfUnfinishedTutorials => _unfinishedTutorials.Count;
 
         public int GetCompletedByTypeIndex(int index)
         {
@@ -33,7 +35,7 @@ namespace ObjectDescription.HomePageDeveloper.TutoriaComponent.TutorialListView
             //if Mission
             return Mission.All;
             //if .....
-        }
+        }     
 
 
     }

@@ -9,16 +9,31 @@ namespace ObjectDescription.TutorialNavigator.Search
 {
     class SearchSection
     {
-        public void SearchResultsByString(string searchString)
+        public SearchSection SearchResultsByString(string searchString)
         {
-            //browser.FindElement(By.CssSelector("input"));
-            //browser.FindElement(By.CssSelector("button search")).Click();
+            if (IsEmpty())
+            {
+                //insert search string into input
+                //click to search
+            }
+            return this;
         }
 
+        public string GetSearchingString()
+        {
+            //get a string from the input
+            return "";
+        }
         public SearchSection ClearSearch()
         {
-            //browser.FindElement(By.CssSelector("clear-input-button")).Click();
+            //clear input
             return this;
+        }
+
+        public bool IsEmpty()
+        {
+            //check if the input is empty
+            return true;//or false
         }
     }
 }

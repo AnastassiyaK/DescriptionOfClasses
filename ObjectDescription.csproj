@@ -48,7 +48,6 @@
     <Compile Include="HomePageDeveloper\Achievements\ProgressBar.cs" />
     <Compile Include="HomePageDeveloper\BookMarkHistory\BookMark.cs" />
     <Compile Include="HomePageDeveloper\BookMarkHistory\History.cs" />
-    <Compile Include="HomePageDeveloper\BookMarkHistory\BookMarkHistory.cs" />
     <Compile Include="HomePageDeveloper\IWantTemplate\Cards\BlueprintPartial.cs" />
     <Compile Include="HomePageDeveloper\IWantTemplate\Cards\BaseCard.cs" />
     <Compile Include="HomePageDeveloper\IWantTemplate\Cards\DevshowcasePartial.cs" />
@@ -58,6 +57,7 @@
     <Compile Include="HomePageDeveloper\TutoriaComponent\TutorialListView\TutorialStats.cs" />
     <Compile Include="HomePageDeveloper\TutoriaComponent\TutorialListView\TutorialStatusSection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TutorialNavigator\Filter\CurrentFilter.cs" />
     <Compile Include="TutorialNavigator\Filter\ExperienceFilter.cs" />
     <Compile Include="TutorialNavigator\Filter\FilterSection.cs" />
     <Compile Include="TutorialNavigator\Filter\ProductsFilter.cs" />

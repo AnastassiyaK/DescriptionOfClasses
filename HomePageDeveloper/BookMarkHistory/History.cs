@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ObjectDescription.HomePageDeveloper.BookMarkHistory
 {
-    public class History: BookMarkHistory
+    public class History
     {
         private IWebElement ContentType;
 

@@ -8,9 +8,12 @@ namespace ObjectDescription.HomePageDeveloper.Achievments
 {
     public class ProgressBar
     {
-        public int GetIndicatorNumber()
+        public int Indicator
         {
-            return 0;
+            get
+            {
+                return 0;
+            }
             //get number 
         }
 

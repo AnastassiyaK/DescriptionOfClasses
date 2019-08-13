@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ObjectDescription.HomePageDeveloper.BookMarkHistory
 {
-    public class BookMark: BookMarkHistory
+    public class BookMark
     {
         private IWebElement RemoveAction;
         public List<TileElement> BookMarks
