@@ -2,7 +2,7 @@
 
 namespace ObjectDescription.HomePageDeveloper.IWantTemplate
 {
-    class ProductCardPartial : BaseCard
+    public class ProductCardPartial : BaseCard
     {
 
     }

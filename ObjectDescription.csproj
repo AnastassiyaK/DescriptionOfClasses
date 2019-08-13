@@ -54,6 +54,7 @@
     <Compile Include="HomePageDeveloper\IWantTemplate\Cards\BlueprintPartial.cs" />
     <Compile Include="HomePageDeveloper\IWantTemplate\Cards\BaseCard.cs" />
     <Compile Include="HomePageDeveloper\IWantTemplate\Cards\DevshowcasePartial.cs" />
+    <Compile Include="HomePageDeveloper\IWantTemplate\Cards\TileIcon.cs" />
     <Compile Include="HomePageDeveloper\IWantTemplate\IWantTemplate.cs" />
     <Compile Include="HomePageDeveloper\IWantTemplate\Cards\ProductCardPartial.cs" />
     <Compile Include="HomePageDeveloper\IWantTemplate\Cards\TutorialCardPartial.cs" />
@@ -75,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="HomePageDeveloper\TutoriaComponent\DeveloperProducts\" />
+    <Folder Include="UsedForAll\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

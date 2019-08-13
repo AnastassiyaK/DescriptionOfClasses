@@ -1,22 +1,26 @@
 ﻿using ObjectDescription.HomePageDeveloper.IWantTemplate.Cards;
-using ObjectDescription.TutorialNavigator.Tiles;
-using OpenQA.Selenium;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ObjectDescription.HomePageDeveloper.IWantTemplate
 {
     public class TutorialCardPartial: BaseCard
     {
         //Can be inherited from the tile element
-        private IWebElement Level;
-        private IWebElement Time;
-        private IWebElement BookMark;
-        private IWebElement Tag;
-        private IWebElement Icon;
+        private string Time => "";//return time
+        private bool HasBookmark => false;//return if tile has bookmark
+        private string Tag => "";//return tag
+        private enum Level
+        {
+            Beginner,
+            Intermediate,
+            Advanced
+        }
+        private enum Label
+        {
+            Featured,
+            New
+        }
+
+        private TileIcon Icon; 
 
 
         public TutorialCardPartial AddBookMark()
@@ -33,8 +37,7 @@ namespace ObjectDescription.HomePageDeveloper.IWantTemplate
 
         public TutorialCardPartial GetTutorialCardByTitle(string title)
         {
-            var card = GetCardByTitle(title);
-            //get some attributes and return TutorialCard
+            //implement some search
             return new TutorialCardPartial();
         }
 

@@ -1,28 +1,26 @@
-﻿using OpenQA.Selenium;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace ObjectDescription.HomePageDeveloper.IWantTemplate
 {
     public class IWantTemplate
     {
-        private IWebElement iWantOptionsPartial
-        {
-            get; //return browser.FindElement(By.Id("iWantOptionsPartial"));
-        }
-        public By GetOptionLocator(string title)
-        {
-            return By.CssSelector($"...{title}");
-        }
+        public List<TutorialCardPartial> Tutorials => new List<TutorialCardPartial>(); //return all tutorial cards from the page
+
+        public List<ProductCardPartial> Products => new List<ProductCardPartial>(); //return all tutorial cards from the page
+
+        public List<BlueprintPartial> Blueprints => new List<BlueprintPartial>(); //return all tutorial cards from the page
+
+        public List<DevshowcasePartial> Devshowcases => new List<DevshowcasePartial>(); //return all tutorial cards from the page
         public IWantTemplate SelectOption(string title)
         {
-            GetOptionLocator(title);
-            //iWantOptionsPartial.FindElements(find element by locator);
-            // CLick();
+            //implement some selection
             return this;
         }
+
+        public int GetAmountOfTutorialsDisplayed() => Tutorials.Count;
+        public int GetAmountOfProductsDisplayed() => Products.Count;
+        public int GetAmountOfTBlueprintsDisplayed() => Blueprints.Count;
+        public int GetAmountOfDevshowcasesDisplayed() => Devshowcases.Count;
+
     }
 }
