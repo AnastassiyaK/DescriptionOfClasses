@@ -65,10 +65,12 @@
     <Compile Include="OpenSource\AttributeContainers\AttributeContainer.cs" />
     <Compile Include="OpenSource\AttributeContainers\AttributesSection.cs" />
     <Compile Include="OpenSource\AttributeContainers\Icon.cs" />
+    <Compile Include="OpenSource\FeaturedContent\BlogPosts\BlogPostContainer.cs" />
+    <Compile Include="OpenSource\FeaturedContent\BlogPosts\FeedSortContainer.cs" />
     <Compile Include="OpenSource\FeaturedContent\ContentSection.cs" />
-    <Compile Include="OpenSource\FeaturedContent\FeaturedContentContainer.cs" />
-    <Compile Include="OpenSource\FeaturedContent\FeedContent\FeedContainer.cs" />
-    <Compile Include="OpenSource\FeaturedContent\FeedContent\FeedItem.cs" />
+    <Compile Include="OpenSource\FeaturedContent\FeaturedProjectContainer.cs" />
+    <Compile Include="OpenSource\FeaturedContent\BlogPosts\FeedContent\FeedContainerNotUsed.cs" />
+    <Compile Include="OpenSource\FeaturedContent\BlogPosts\FeedContent\FeedItem.cs" />
     <Compile Include="OpenSource\Memberships\MembershipContainer.cs" />
     <Compile Include="OpenSource\Memberships\MembershipSection.cs" />
     <Compile Include="OpenSource\OpenSourceProjects\ContributorItem.cs" />

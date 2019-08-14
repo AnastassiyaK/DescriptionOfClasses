@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ObjectDescription.OpenSource.FeaturedContent.FeedContent
+namespace ObjectDescription.OpenSource.FeaturedContent
 {
-    public class FeedItem
+    class FeaturedProjectContainer
     {
         public Icon Icon
         {
@@ -15,7 +15,6 @@ namespace ObjectDescription.OpenSource.FeaturedContent.FeedContent
                 return new Icon();//returns icon
             }
         }
-
         public string Title
         {
             get
@@ -23,14 +22,27 @@ namespace ObjectDescription.OpenSource.FeaturedContent.FeedContent
                 return "";//returns Title
             }
         }
-        public string Date
+        public string Topic
         {
             get
             {
-                return "";//returns date
+                return "";//returns Type
+            }
+        }
+        public string Description
+        {
+            get
+            {
+                return "";//returns Description
             }
         }
 
-      
+        public string Link
+        {
+            get
+            {
+                return "";//returns Link
+            }
+        }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ObjectDescription.OpenSource.FeaturedContent.FeedContent
 {
-    public class FeedContainer
+    public class FeedContainerNotUsed
     {
         public List<FeedItem> Feeds
         {
@@ -16,7 +16,7 @@ namespace ObjectDescription.OpenSource.FeaturedContent.FeedContent
             }
         }
 
-        public int GetContainersAmount() => Feeds.Count;
+        public int GetFeedsAmount() => Feeds.Count;
         public FeedItem GetFeedByTitle(string title)
         {
             //implement search

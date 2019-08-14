@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ObjectDescription.OpenSource.FeaturedContent
+﻿namespace ObjectDescription.OpenSource.FeaturedContent
 {
     public class ContentSection
     {
@@ -14,9 +8,9 @@ namespace ObjectDescription.OpenSource.FeaturedContent
             {
                 return "";//returns Title
             }
-        }
-
-
+        }  
+        // FeaturedProject
+        //BlogPosts
 
     }
 }
