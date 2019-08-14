@@ -9,9 +9,22 @@ namespace ObjectDescription.OpenSource.OpenSourceProjects
 {
     public class OpenSourceProject
     {
-        public OpenSourceInfo Row;
-        public SearchSection Search;
-        public OpenSourceProjectList ProjectsList;
+        public string IconDown
+        {
+            get
+            {
+                return "";//returns
+            }
+        }
+        public OpenSourceInfo row;
+
+        public SearchSection search;
+
+        public OpenSourceProjectList projectsList;
+
+        public ContributorItem contributor;
+
+
 
     }
 }

@@ -65,6 +65,9 @@
     <Compile Include="OpenSource\AttributeContainers\AttributeContainer.cs" />
     <Compile Include="OpenSource\AttributeContainers\AttributesSection.cs" />
     <Compile Include="OpenSource\AttributeContainers\Icon.cs" />
+    <Compile Include="OpenSource\FeaturedContent\ContentSection.cs" />
+    <Compile Include="OpenSource\FeaturedContent\FeaturedContentContainer.cs" />
+    <Compile Include="OpenSource\OpenSourceProjects\ContributorItem.cs" />
     <Compile Include="OpenSource\OpenSourceProjects\OpenSourceInfo.cs" />
     <Compile Include="OpenSource\OpenSourceProjects\OpenSourceProject.cs" />
     <Compile Include="OpenSource\OpenSourceProjects\Projects\FeatureCardContainer.cs" />
