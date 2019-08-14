@@ -31,7 +31,7 @@ namespace ObjectDescription.OpenSource.OpenSourceProjects
                 return "";
             }
         }
-        private List<FeatureCardContainer> Projects;
+        public List<FeatureCardContainer> Projects;
 
         public int GetProjectsAmount() => Projects.Count;
         public FeatureCardContainer GetProjectByTitle(string title)

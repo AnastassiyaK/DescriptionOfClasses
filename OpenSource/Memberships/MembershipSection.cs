@@ -23,7 +23,7 @@ namespace ObjectDescription.OpenSource.Memberships
             }
         }
 
-        private List<MembershipContainer> Memberships
+        public List<MembershipContainer> Memberships
         {
             get
             {

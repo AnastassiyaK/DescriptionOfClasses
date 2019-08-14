@@ -8,7 +8,7 @@ namespace ObjectDescription.OpenSource.Attributes
 {
     public class AttributesSection
     {
-        private List<AttributeContainer> Containers
+        public List<AttributeContainer> Containers
         {
             get
             {
