@@ -8,5 +8,6 @@ namespace ObjectDescription.OpenSource.FeaturedContent
 {
     public class FeaturedContentContainer
     {
+
     }
 }
